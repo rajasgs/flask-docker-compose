@@ -115,8 +115,8 @@ To check standard logs:
 
 Access the application containers shell:
 
-- ```docker exec -it dockerflask_flaskapp_1 bash```
+- ```docker exec -it flask-docker-compose_flaskapp_1 bash```
 
 ### Running tests
 
-- ```docker exec -it dockerflask_flaskapp_1 bash -c "python manage.py runtests"```
+- ```docker exec -it flask-docker-compose_flaskapp_1 bash -c "python manage.py runtests"```
