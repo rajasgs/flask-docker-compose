@@ -79,29 +79,29 @@ To start applications with production environment
 
 To initialize, create migration and upgrade your database:
 
-- ```docker exec -it dockerflask_flaskapp_1 bash -c "python manage.py create_db"```
+- ```docker exec -it flask-docker-compose_flaskapp_1 bash -c "python manage.py create_db"```
 
 To run ipython debug flaskapp shell:
 
-- ```docker exec -it dockerflask_flaskapp_1 bash -c "python manage.py shell"```
+- ```docker exec -it flask-docker-compose_flaskapp_1 bash -c "python manage.py shell"```
 
 To create admin user:
 
-- ```docker exec -it dockerflask_flaskapp_1 bash -c "python manage.py create_user -a"```
+- ```docker exec -it flask-docker-compose_flaskapp_1 bash -c "python manage.py create_user -a"```
 
 ### Migrations
 
 To initialize migrations:
 
-- ```docker exec -it dockerflask_flaskapp_1 bash -c "python manage.py db init"```
+- ```docker exec -it flask-docker-compose_flaskapp_1 bash -c "python manage.py db init"```
 
 To create a migration:
 
-- ```docker exec -it dockerflask_flaskapp_1 bash -c "python manage.py db migrate"```
+- ```docker exec -it flask-docker-compose_flaskapp_1 bash -c "python manage.py db migrate"```
 
 To upgrade your database with migration:
 
-- ```docker exec -it dockerflask_flaskapp_1 bash -c "python manage.py db upgrade"```
+- ```docker exec -it flask-docker-compose_flaskapp_1 bash -c "python manage.py db upgrade"```
 
 ### Stop and destroy a cluster
 
